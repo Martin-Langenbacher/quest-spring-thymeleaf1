@@ -8,12 +8,13 @@
 <body>
 <header th:replace="header.html::header">
 
-<!--  ==> im header wird dies über th:replace geholt !!!
+<!--  ==> im header wird dies über th:replace geholt !!! 
+      ==> 2.) es kann auch drin bleiben, da wenn der th:replace 
+      		nicht klappt es dann eben der "alte" Text genommen wird!-->
     <nav>
         <span>Doctor Secret Service</span>
         <a href="/">Sign In</a>
     </nav>
-    -->
     
 </header>
 
@@ -31,14 +32,15 @@
 </form>
 <footer th:replace="footer.html::footer">
 
-<!--  ==> im header wird dies über th:replace geholt !!!
+<!--  ==> im header wird dies über th:replace geholt !!! 
+      ==> 2.) es kann auch drin bleiben, da wenn der th:replace 
+      	      nicht klappt es dann eben der "alte" Text genommen wird!-->
     <ul>
         <li><a href="#">Twitter</a></li>
         <li><a href="#">Facebook</a></li>
         <li><a href="#">TARDIS</a></li>
     </ul>
     <span>Copyright BBC/Terry Nation 1963</span>
-    -->
     
 </footer>
 </body>
